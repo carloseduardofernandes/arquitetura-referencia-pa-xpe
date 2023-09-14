@@ -8,5 +8,7 @@ namespace Products.Application.ViewModels
 {
     internal class ProductViewModel
     {
+        public Guid Id { get; set; }
+        public string Name { get; set; } = null!;
     }
 }
